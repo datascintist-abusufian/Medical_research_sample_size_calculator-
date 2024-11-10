@@ -12,9 +12,8 @@ st.set_page_config(
 # Display GIFs at the top center
 col_a, col_b, col_c = st.columns([1, 3, 1])
 with col_b:
-    st.image("/mnt/data/ezgif.com-animated-gif-maker (1).gif", use_column_width=True)
     st.image("/mnt/data/hist_errorbars_nn10_sd1_mu00_mu11_nsims10.gif", use_column_width=True)
-
+    
 # Title and introduction
 st.title("🏥 Medical Research Sample Size Calculator by Md Abu Sufian")
 st.markdown("""
