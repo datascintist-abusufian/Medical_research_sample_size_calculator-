@@ -10,10 +10,10 @@ st.set_page_config(
 )
 
 # Title and introduction
-st.title("🏥 Medical Research Sample Size Calculator")
+st.title("🏥 Medical Research Sample Size Calculator by Md Abu Sufian")
 st.markdown("""
-This dashboard helps researchers determine the appropriate sample size for medical studies.
-It supports both parallel group and paired study designs.
+This dashboard helps medical science researchers to determine the appropriate sample size for medical studies.
+It supports both parallel group and paired study designs..
 """)
 
 # Create two columns for input parameters
