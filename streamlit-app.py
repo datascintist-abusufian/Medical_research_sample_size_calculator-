@@ -8,10 +8,11 @@ st.set_page_config(
     page_icon="🏥",
     layout="wide"
 )
-# Display GIFs at the top center
+# Display GIFs from raw GitHub URLs at the top center
 col_a, col_b, col_c = st.columns([1, 3, 1])
 with col_b:
-    st.image("/mnt/data/hist_errorbars_nn10_sd1_mu00_mu11_nsims10.gif", use_column_width=True)
+    st.image("https://github.com/datascintist-abusufian/Medical_research_sample_size_calculator-/raw/main/hist_errorbars_nn10_sd1_mu00_mu11_nsims10.gif", use_column_width=True)
+    st.image("https://github.com/datascintist-abusufian/Medical_research_sample_size_calculator-/raw/main/sample%20size.gif", use_column_width=True)
     
 # Title and introduction
 st.title("🏥 Medical Research Sample Size Calculator by Md Abu Sufian")
