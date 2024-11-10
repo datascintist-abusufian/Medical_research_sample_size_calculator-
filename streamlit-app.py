@@ -145,4 +145,4 @@ st.markdown("""
 
 # Footer
 st.markdown("---")
-st.markdown("Created for medical researchers and statisticians to assist in study planning.")
+st.markdown("Created for medical researchers and statisticians to assist in study planning © 2024 Md Abu Sufian. All rights reserved,UK.")
