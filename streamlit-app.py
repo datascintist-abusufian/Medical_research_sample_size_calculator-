@@ -150,4 +150,9 @@ st.markdown("""
 
 # Footer
 st.markdown("---")
-st.markdown("Created for medical researchers and statisticians to assist in study planning © 2024 Md Abu Sufian. All rights reserved,UK.")
+st.markdown(
+    "<div style='text-align: center;'>"
+    "Created for medical researchers and statisticians to assist in study planning © 2024 Md Abu Sufian. All rights reserved, UK."
+    "</div>",
+    unsafe_allow_html=True
+)
