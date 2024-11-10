@@ -4,7 +4,7 @@ from utils import calculate_sample_size, calculate_effect_size, create_power_cur
 
 # Set page config
 st.set_page_config(
-    page_title="Medical Research Sample Size Calculator",
+    page_title="Medical Research Sample Size Calculator by Md Abu Sufian",
     page_icon="🏥",
     layout="wide"
 )
