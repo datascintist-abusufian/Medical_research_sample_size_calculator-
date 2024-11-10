@@ -8,7 +8,6 @@ st.set_page_config(
     page_icon="🏥",
     layout="wide"
 )
-
 # Display GIFs at the top center
 col_a, col_b, col_c = st.columns([1, 3, 1])
 with col_b:
